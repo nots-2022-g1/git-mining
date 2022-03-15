@@ -2,6 +2,14 @@
 
 Het extraheren van bruikbare data uit een git repository
 
+## Data
+
+| Naam    | Line count | Size |     |     |
+| ------- | ---------- | ---- | --- | --- |
+| Angular | 336184     | 14M  |     |     |
+| Ansible | 734176     | 27M  |     |     |
+|         |            |      |     |     |
+
 ## Aanpak
 
 Om snel commit history en metadata uit een git repository te halen, kan gebruik worden gemaakt van `git log`. Dit output text in de vorm:
@@ -93,4 +101,3 @@ De python tool voert onder water `git log` uit, waarna de uitvoer omgezet wordt 
 ```
 
 (JSON uitvoer van [Python tool](https://github.com/gaborantal/git-log-parser) van eerder genoemd voorbeeld uit [angular/angular](https://github.com/angular/angular))
-
