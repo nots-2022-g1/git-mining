@@ -2,13 +2,12 @@
 
 Het extraheren van bruikbare data uit een git repository
 
-## Data
+## Datasets
 
-| Naam    | Line count | Size |     |     |
-| ------- | ---------- | ---- | --- | --- |
-| Angular | 336184     | 14M  |     |     |
-| Ansible | 734176     | 27M  |     |     |
-|         |            |      |     |     |
+| Naam    | Line count | Size |
+| ------- | ---------- | ---- |
+| Angular | 336184     | 14M  |
+| Ansible | 734176     | 27M  |
 
 ## Aanpak
 
