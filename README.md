@@ -100,3 +100,13 @@ De python tool voert onder water `git log` uit, waarna de uitvoer omgezet wordt 
 ```
 
 (JSON uitvoer van [Python tool](https://github.com/gaborantal/git-log-parser) van eerder genoemd voorbeeld uit [angular/angular](https://github.com/angular/angular))
+
+## Pre-processing
+
+Om git messages geschikter te maken voor het trainen van een RNN, is het van belang dat onnodige ('ruis') textuele data uit de messages te filteren. In de basis kan dit gedaan worden met een combinatie van regex en andere string-based operaties.
+
+Om de pre-processor te gebruiken: `preprocessor.py --input <file> --output <file>`. Input is in json formaat, output in csv. Datasets zijn te vinden onder `/data`
+
+### Lemmatizer & Stemmer
+
+Om messages onderling uniformer te maken, maken we gebruik van een lemmatizer. Een lemmatizer zet woorden in verschillende grammaticale vormen om in 1 en dezelfde vorm. Voor lemmatization (en stemming) maken we gebruik van de python NLTK.
